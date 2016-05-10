@@ -188,22 +188,45 @@ switch(_shop) do
                         {
                                 ["Mohammed's Jihadi Shop",
                                         [
-											["A3L_SA61",nil,45000],
-											["A3L_SA61mag",nil,900],
-											["A3L_UZI",nil,37250],
-											["A3L_UZImag",nil,950],
-											
-											["A3L_AK47",nil,120000],
-											["A3L_AK47mag",nil,2500],
-											
-											["A3L_AK47s",nil,135000],
-											["A3L_AK47sgold",nil,175000],											
-											["A3L_AK47smag",nil,2750],		
-
-											["A3L_AKS74",nil,190000],
-											["A3L_AK47sMag",nil,2750],
-											
-											["A3L_RedDot",nil,8500]
+												["RH_m9c",nil,7000],
+												["RH_15Rnd_9x19_M9",nil,250],
+												["RH_vp70",nil,15000],
+												["RH_18Rnd_9x19_VP",nil,250],
+												["RH_g18",nil,16000],
+												["RH_33Rnd_9x19_g18",nil,250],
+												["RH_tt33",nil,15000],
+												["RH_8Rnd_762_tt33",nil,250],
+												["CUP_hgun_Colt1911",nil,15000],
+												["CUP_7Rnd_45ACP_1911",nil,250],
+												["RH_m1911",nil,15000],
+												["RH_kimber",nil,19000],
+												["RH_kimber_nw",nil,19000],
+												["RH_7Rnd_45cal_m1911",nil,250],
+												["RH_tec9",nil,35000],
+												["RH_32Rnd_9x19_tec",nil,250],
+												["RH_muzi",nil,35000],
+												["RH_30Rnd_9x19_UZI",nil,250],
+												["CUP_hgun_SA61",nil,35000],
+												["CUP_20Rnd_B_765x17_Ball_M",nil,250],
+												["hgun_PDW2000_F",nil,39000],
+												["30Rnd_9x21_Mag",nil,250],
+												["RH_sbr9_wdl",nil,40000],
+												["RH_sbr9_tg",nil,40000],
+												["RH_sbr9_des",nil,40000],
+												["RH_32Rnd_9mm_M822",nil,250],
+												["SMG_01_F",nil,40000],
+												["30Rnd_45ACP_Mag_SMG_01",nil,250],
+												["A3L_AK47",nil,75500],
+												["A3L_AK47mag",nil,500],
+												["CUP_arifle_AKS74U",nil,72000],
+												["CUP_arifle_AK74",nil,79500],
+												["CUP_arifle_AK74M",nil,82500],
+												["CUP_arifle_AK107",nil,82500],
+												["CUP_arifle_AKS74",nil,82500],
+												["CUP_30Rnd_545x39_AK_M",nil,500],
+												["CUP_optic_Kobra",nil,10000],
+												["optic_Aco",nil,10000],
+												["CUP_optic_MRad",nil,10000]
 										]
                                 ];
                         };
@@ -220,17 +243,38 @@ switch(_shop) do
                         {
                                 ["Billy Joe's Firearms",
                                         [
-                                                ["A3L_Glock17",nil,17600],
-												["A3L_Glock17mag",nil,500],
-												["A3L_M9",nil,17200],
-												["A3L_M9mag",nil,400],
-												["A3L_makarov",nil,14500],
-												["A3L_makarovmag",nil,250],
-												["A3L_1911",nil,18000],
-												["A3L_1911mag",nil,600],
-												["A3L_Taurus",nil,32500],
-												["A3L_TaurusGold",nil,35000],
-												["A3L_Taurusmag",nil,970]
+                                                ["CUP_hgun_Makarov",nil,5000],
+												["CUP_8Rnd_9x18_Makarov_M",nil,250],
+												["CUP_hgun_PB6P9",nil,6000],
+												["CUP_8Rnd_9x18_Makarov_M",nil,250],
+												["hgun_P07_F",nil,6000],
+												["16Rnd_9x21_Mag",nil,250],
+												["hgun_Rook40_F",nil,6000],
+												["16Rnd_9x21_Mag",nil,250],
+												["RH_sw659",nil,6000],
+												["RH_14Rnd_9x19_sw",nil,250],
+												["CUP_hgun_Glock17",nil,6000],
+												["CUP_17Rnd_9x19_glock17",nil,250],
+												["RH_g19",nil,6000],
+												["RH_g19t",nil,6000],
+												["RH_17Rnd_9x19_g17",nil,250],
+												["RH_m9",nil,7000],
+												["RH_15Rnd_9x19_M9",nil,250],
+												["CUP_hgun_M9","M9 Beretta",1200],
+												["CUP_15Rnd_9x19_M9","M9 Magazine",100],
+												["CUP_hgun_Compact",nil,6000],
+												["CUP_10Rnd_9x19_Compact",nil,250],
+												["CUP_hgun_Duty",nil,8000],
+												["16Rnd_9x21_Mag",nil,250],
+												["CUP_hgun_Phantom",nil,15000],
+												["CUP_18Rnd_9x19_Phantom",nil,250],
+												["RH_p226",nil,15000],
+												["RH_p226s",nil,15000],
+												["RH_15Rnd_9x19_SIG",nil,250],
+												["RH_mk2",nil,15000],
+												["RH_10Rnd_22LR_mk2",nil,250],
+												["RH_gsh18",nil,25000],
+												["RH_18Rnd_9x19_gsh",nil,250]
                                         ]
                                 ];
                         };
@@ -251,7 +295,7 @@ switch(_shop) do
                                                 ["A3L_CZ550mag",nil,50],
                                                 ["A3L_CZ550Scope",nil,36000],
 												
-												["arifle_SDAR_F","Turtle Harpoon",30000],
+												["arifle_SDAR_F","Turtle Harpoon",10000],
 												["20Rnd_556x45_UW_mag","Underwater magazine",1200]
                                         ]
                                 ];
@@ -283,7 +327,8 @@ switch(_shop) do
         {
                 ["Altis General Store",
                         [
-								["ItemMap",nil,69],
+								["ItemMap",nil,169],
+								["Tv_Camera","TV Camera(Secondary Slot)",2520],
 								["FirstAidKit",nil,250],
                                 ["itemRadio",nil,900],
                                 ["Binocular",nil,1250],
@@ -294,7 +339,15 @@ switch(_shop) do
                                 ["Chemlight_red",nil,200],
                                 ["Chemlight_yellow",nil,200],
                                 ["Chemlight_green",nil,200],
-                                ["Chemlight_blue",nil,200]
+                                ["Chemlight_blue",nil,200],
+								["A3L_ChainSaw",nil,2000],
+								["A3L_Shovel",nil,2000],
+								["A3L_Pickaxe",nil,2000],
+								["A3L_JackHammer",nil,2000],
+								["A3L_Hammer",nil,2000],
+								["A3L_Sign",nil,2000],
+								["A3L_Sign2",nil,200],
+								["A3L_Sign3",nil,200]
                         ]
                 ];
         };
