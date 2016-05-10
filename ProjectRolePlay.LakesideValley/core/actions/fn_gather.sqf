@@ -30,7 +30,7 @@ switch(true) do {
 	case (_zone in ["bean_1"]): {_gather = "bean Plant"; _seeds = "bean seed"; _val = 3;};
 	case (_zone in ["cotton_1"]): {_gather = "cotton Plant"; _seeds = "cotton seed"; _val = 3;};
 	case (_zone in ["olive_1"]): {_gather = "olive Plant"; _seeds = "olive seed"; _val = 3;};
-	case (_zone in ["opium_1"]): {_gather = "opium Plant"; _seeds = "opium seed"; _val = 1;};
+	case (_zone in ["opium_1"]): {_gather = "opium Poppy"; _seeds = "opium seed"; _val = 1;};
 	case (_zone in ["cannabis_1"]): {_gather = "cannabis Plant"; _seeds = "cannabis seed"; _val = 1;};
 	case (_zone in ["pumpkin_1"]): {_gather = "pumpkin"; _seeds = "pumpkin seed"; _val = 1;};
 	default {""};
