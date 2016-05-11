@@ -15,7 +15,7 @@ _thingToPushType = typeOf _thingToPush;
 _nameOfThingToPush = (getText (configFile >> "cfgVehicles" >> (_thingToPushType) >> "displayname"));
 // _weightOfThing = (getText (configFile >> "cfgVehicles" >> (_thingToPushType)  >> "weight"));
 
-if (!(isNull _thingToPush) and ((_thingToPush isKindOf "AllVehicles") or (_thingToPush isKindOf "Thing") or (_thingToPush isKindOf "Object") ))
+if (!(isNull _thingToPush))
 then
 {
          

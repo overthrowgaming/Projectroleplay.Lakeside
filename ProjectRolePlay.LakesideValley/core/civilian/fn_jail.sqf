@@ -1,17 +1,17 @@
 /*
 	File: fn_jail.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Starts the initial process of jailing.
 */
-private["_bad","_unit"];
+private["_bad","_unit","_time"];
 _unit = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 hint format["%1", _unit];
 if(isNull _unit) exitWith {}; //Dafuq?
 if(_unit != player) exitWith {}; //Dafuq?
 if(life_is_arrested) exitWith {}; //Dafuq i'm already arrested
-_bad = [_this,1,false,[false]] call BIS_fnc_param;
+_bad = [_this,1,false,[false]] call BIS_fnc_param;_time = [_this,2,15,[0]] call BIS_fnc_param;
 player setVariable["restrained",false,true];
 player setVariable["Escorting",false,true];
 player setVariable["transporting",false,true];
@@ -19,15 +19,6 @@ player setVariable["transporting",false,true];
 titleText[localize "STR_Jail_Warn","PLAIN"];
 hint localize "STR_Jail_LicenseNOTF";
 player setPos (getMarkerPos "jail_marker");
-
-if (uniform player == "A3L_Prisoner_Outfit") then 
-{
-	A3L_Fnc_OldUniform = "A3L_Shirt";
-} 
-else
-{
-	A3L_Fnc_OldUniform = Uniform player;
-};
 
 if(_bad) then
 {
@@ -54,5 +45,6 @@ life_is_arrested = true;
 removeAllWeapons player;
 {player removeMagazine _x} foreach (magazines player);
 
-[[player,_bad],"life_fnc_jailSys",false,false] spawn life_fnc_MP;
+[[player,_bad,_time],"life_fnc_jailSys",false,false] spawn life_fnc_MP;
 [5] call SOCK_fnc_updatePartial;
+call life_fnc_inJail;

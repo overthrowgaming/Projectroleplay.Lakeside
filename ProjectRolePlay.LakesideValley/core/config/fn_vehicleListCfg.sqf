@@ -120,7 +120,7 @@ switch (_shop) do
 			["EvoXEMS",5000],
 			["A3L_CVPILBFD",5000],
 			["cg_ambulanceexpansion",5000],
-			["DAR_TahoeEMS",4000],
+			["DAR_TahoeEMS",4000]
 		];
 	};
 	case "med_air_hs": {
@@ -135,6 +135,7 @@ switch (_shop) do
 	case "exo_car":
 	{
 		_return = [
+			
 			["A3L_Cooper_concept_blue",15000],
 			["A3L_Cooper_concept_black",15000],
 			["A3L_Cooper_concept_red",15000],
@@ -644,6 +645,7 @@ switch (_shop) do
 	case "chev_car":
 	{
 		_return = [
+			
 			["cl3_enduro_black",10000],
 			["cl3_enduro_yellow",10000],
 			["cl3_enduro_blue",10000],
@@ -750,6 +752,7 @@ switch (_shop) do
 	case "ford_car":
 	{
 		_return = [
+			
 			["A3L_FordKaBlue",30000],
 			["A3L_FordKaRed",30000],
 			["A3L_FordKaBlack",30000],
